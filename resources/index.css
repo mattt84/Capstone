@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(78, 76, 76);
+}
+
+h1 {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#lion {
+    min-height: 3rem;
+    padding-left: 1.5rem;
+    position: absolute;
+    top: .8rem;
+}
+
+#logo {
+    max-height: 1.8rem;
+    position: absolute;
+    top: 1.1rem;
+    left: 4rem;
+}
+
+header li {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+#signin {
+    padding-right: 1.5rem;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+/* Learn Something */
+
+.learn {
+    display: flex;
+    background-color: rgb(192, 192, 192);
+}
+
+#banner {
+    max-width: 55rem;
+    padding: 2rem 2rem 2rem 1.5rem;
+}
+
+.leartxt {
+    align-self: center;
+}
+
+.button {
+    font-size: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    background-color: rgb(78, 76, 76);
+    border-radius: 4px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+#learn {
+    padding-bottom: 2rem;
+}
