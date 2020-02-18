@@ -121,6 +121,7 @@ header a {
 
 /*Practicing part*/
 
+
 .practicing {
     display: flex;
 }
@@ -185,4 +186,105 @@ header a {
 .guest {
     display: flex;
     background-color: rgb(192, 192, 192);
+}
+
+/*Start learning part*/
+
+
+#starthead {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(192, 192, 192);
+}
+
+.framepic {
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.frame {
+    background-color: white;
+    max-width: 30%;
+    margin-bottom: 2rem;
+}
+
+.start {
+    background-color: rgb(192, 192, 192);
+    display: flex;
+    padding: 0 4.5rem 2rem 4.5rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#frametxt {
+    padding-left: 1rem;
+    line-height: 2;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+/*Thesis part*/
+
+
+#thesishead {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.thesis {
+    display: flex;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    border-bottom: solid 1px rgb(192, 192, 192);
+}
+
+.video {
+    width: 60%;
+    height: auto;
+    padding-right: 1.5rem;
+}
+
+#movie {
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
+
+.thesisright {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fisma {
+    display: flex;
+    background-color: rgb(192, 192, 192);
+}
+
+#videotxth5 {
+    padding-bottom: 1rem;
+}
+
+/*Footer*/
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footerlefttxt {
+    padding: 1rem 0 3rem 1.5rem;
+}
+
+.footerright li {
+    display: inline-block;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.footerright a {
+    text-decoration: none;
 }
